@@ -1,1 +1,96 @@
-/* css goes here */
+html, body {
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calculatorBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: #222222;
+    align-items: center;
+    width: 280px;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+.buttonRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    margin: 5px;
+
+}
+
+.numberButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 22pt;
+    background-color: #444444;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.operatorButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 22pt;
+    background-color: #997777;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.clearButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 22pt;
+    background-color: #aaaa11;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.equalsButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 22pt;
+    background-color: #aa5555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+#calculatorDisplay {
+    width: 98%;
+    background-color: #555555;
+    height: 80px;
+    padding: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 24pt;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
