@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP Calculator Project</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
-<body>
+<body onload="addListeners">
     <div id="wrapper">
         <h1>Calculator</h1>
         <div id="calculatorBody">
-            <div id="calculatorDisplay">
-                1234567890
-            </div>
+            <div id="calculatorDisplay"></div>
             <div class="buttonRow">
                 <div class="button clearButton">AC</div>
                 <div class="button operatorButton">( )</div>
