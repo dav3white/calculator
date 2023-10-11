@@ -1,7 +1,7 @@
 let num1, num2, operator;
 const buttons = document.querySelectorAll('.button');
 let display = document.querySelector('#calculatorDisplay');
-display.innerHTML = 0;
+display.innerHTML = 80085;
 
 // Wait for the page to load
 window.addEventListener('load', function() {  
